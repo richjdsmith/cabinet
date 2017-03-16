@@ -34,6 +34,12 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+#
+#
+##### CUSTOM GEMS BELOW THIS LINE #####
+gem 'devise', '~> 4.2', '>= 4.2.1'
+gem 'haml', '~> 4.0', '>= 4.0.7'
+gem 'simple_form', '~> 3.4'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
